@@ -39,7 +39,7 @@ deploy:
     file: lmms-${TRAVIS_TAG:1}-$TARGET_OS-$QT5.exe
     skip_cleanup: true
     on:
-        condition: "$TARGET_OS" = win??
+        condition: '("$TARGET_OS" = win??)'
     repo: arebao/lmms
 notifications:
     webhooks:
