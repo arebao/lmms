@@ -39,7 +39,6 @@ deploy:
     file: lmms-${TRAVIS_TAG:1}-$TARGET_OS-$QT5.exe
     skip_cleanup: true
     on:
-        branch: staging
         condition: "$TARGET_OS" = win??
     repo: arebao/lmms
 notifications:
