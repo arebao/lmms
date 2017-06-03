@@ -35,12 +35,12 @@ before_deploy: make package
 deploy:
     provider: releases
     api_key:
-        secure: baf80a787197b8b8c36e8d89f6017f776428e08a
+        secure: 4ae9952bfb7ce98c9458c94cddb7a82b4fc97031
     file: lmms-${TRAVIS_TAG:1}-$TARGET_OS-$QT5.exe
     skip_cleanup: true
     on:
         tags: true
-        branche: stable-1.2
+        all_branches: true
         condition: '("$TARGET_OS" = win??)
     repo: arebao/lmms
 notifications:
