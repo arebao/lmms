@@ -35,7 +35,7 @@ before_deploy: make package
 deploy:
     provider: releases
     api_key:
-        secure: d4a+x4Gugpss7JK2DcHjyBZDmEFFh4iVfKDfITSD50T6Mc6At4LMgojvEu+6qT6IyOY2vm3UVT6fhyeuWDTRDwW9tfFlaHVA0h8aTRD+eAXOA7pQ8rEMwQO3+WCKuKTfEqUkpL4wxhww8dpkv54tqeIs0S4TBqz9tk8UhzU7XbE=
+        secure: baf80a787197b8b8c36e8d89f6017f776428e08a
     file: lmms-${TRAVIS_TAG:1}-$TARGET_OS.exe
     skip_cleanup: true
     on:
