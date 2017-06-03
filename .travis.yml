@@ -26,7 +26,8 @@ after_script:
 before_deploy: make package
 deploy:
     provider: releases
-    api_key: 01a6732c6d54c7f529017ed400b3f26a6e9840d8
+    api_key: 
+        secure: D6JuAVRildE+f++/ErWBi/7lUyqINUfjPHsFRH4xki9JNOcT7Cn5qveM1BnT16sMmj1Ep3GXvtOFDpX19QRpv6tFR9cVa7sHc/3AvcuGYRmhHtdjgLv7Jblug1zNnGAOGpEpnAtxNd6D0UCTPQX1OJFjNvQpmAL8T0VZwtEaxMPDtzh0R+2YcJ6lcSj7rZzzoUqDZN8aKM7dAoXqCRF4Fx8aqBO5yMj89gh1nEN/78AyAGmoRSIdC7haQXIMNcW1yVSvkWI7dEiykfyuBzckXHF9naSMRvFh5r8p68dnbFQT34E4yaTBMn/Dt2I9tAqn8eE0Q160iqlDd8LLw48vSlJRxhl/ur3wFeJjxaWjcWn6OUyjdC0wnpg3ymhxTZdbWRItuYiqcQ8cVV6kvr0MFJBGQJ98mmEJtUti8A5ZQNPkX0qKrQR+AkIZMMKBstdLWDFGXoWxEAztKeO8T0gMPzG/OQwWEI81c7Zc92kfQvGwuhyRe4kj/T4UvmXrLwlJYvMHIEnz6x/chDX3NzuCEi5zjx1HK7j3UT1kofgq3H2ZpMKUwbSB8/xTjtfF0myp8uL3x0Iy5td508YCC+DUnWRoumP4zTqDO4kXKWu7iQb7NJB54ebWHBNth3G/mjmj9RTKRhRupBQ5p1q9rGANzQ7IUxiUKPjVG/mJ++cMdGs=
     file: lmms-${TRAVIS_TAG:1}-$TARGET_OS-$QT5.exe
     skip_cleanup: true
     on:
