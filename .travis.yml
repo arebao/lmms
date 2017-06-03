@@ -28,7 +28,7 @@ deploy:
     provider: releases
     api_key: 
         secure: fF10GSdwYTpNnsbkxdnWMYL5BvocF8mLsO99HN3jalandLY2RpNB4QAS6NyzLHzVtmaS//K11UF+gl9OyziOaBpURZOM710cLLI28rNOlhFAm990L8WpOLQjik85/fkdplLxqu4yIeBxerhlz4fZB4Aj1k50c5xwQzQ2MwEXe0QyCthr69j/OFMIl8kjn5o7FbMfKw50EZ1ZUklv5R3a90KHumhZFeUPBPdJ54QNrWlwjynqVFKYSp0VAg5ZXsyAplHUh2cO6lOonSHJOxZQzksVM8m3o/wV9c9KbCtrZztCPSJw6wb4dmC6+8t4ovez17SgDvFUVdksVkmaxghwUww1qq5kquqGKpeDYP+RKhzjlGrrUZUKxziL/PiiV9EnXf5jhwD5QpwZuFtLVQLtr6z38KUyEtYi1pS4j25+YmBad2PagS60kYWRtnBSLFaKzRJRNmP4+hGH45jqPHU1JYgRqY+UyRrj6l5KDRsFO7t9p0W1zwUNZA/4s/sHe6jAcs/wsA7v+Pe2FVPS4Br3s2vtVctplYeJMtKPVDpVpR0VIOOhWQg6GT69OI+B/+jbn9iZOpqYxUUjgSEGoHIj10YPwSAYj5Xn8Ss/lJ3Ga+bCYw10En30l1xpPjSSQ+EJwQn/FlftEOZiHaMwIs6G7URdIZKb/0TfczwxeOG7RSM=
-    file: lmms-1.2.0-rc3-win64.exe
+    file: lmms-1.2.0-rc3.30-win64
     skip_cleanup: true
     on:
         all_branches: true
