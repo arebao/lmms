@@ -36,11 +36,11 @@ deploy:
     provider: releases
     api_key:
         secure: baf80a787197b8b8c36e8d89f6017f776428e08a
-    file: lmms-${TRAVIS_TAG:1}-$TARGET_OS.exe
+    file: lmms-${TRAVIS_TAG:1}-$TARGET_OS-$QT5.exe
     skip_cleanup: true
     on:
-        branches: stable-1.2
-        condition: '("$TARGET_OS" = win??) && "$QT5"'
+        branch: stable-1.2
+        condition: '("$TARGET_OS" = win??)
     repo: arebao/lmms
 notifications:
     webhooks:
