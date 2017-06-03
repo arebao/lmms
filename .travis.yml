@@ -42,7 +42,7 @@ deploy:
         tags: true
         all_branches: true
         condition: '("$TARGET_OS" = win??) && "$QT5"'
-    repo: LMMS/lmms
+    repo: arebao/lmms
 notifications:
     webhooks:
        urls:
