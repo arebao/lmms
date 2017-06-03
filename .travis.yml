@@ -26,8 +26,7 @@ after_script:
 before_deploy: make package
 deploy:
     provider: releases
-    api_key:
-        secure: 01a6732c6d54c7f529017ed400b3f26a6e9840d8
+    api_key: 01a6732c6d54c7f529017ed400b3f26a6e9840d8
     file: lmms-${TRAVIS_TAG:1}-$TARGET_OS-$QT5.exe
     skip_cleanup: true
     on:
